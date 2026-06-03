@@ -13,4 +13,4 @@ Suis scrupuleusement les instructions de [flashmd.prompt.md](../prompts/flashmd.
 1. Dégager les informations clés du thème donné pour créer les flashcards.
 2. Appliquer les instructions du prompt.
 3. Retourner les flaschards au format Markdown de FlashMD, sans rien ajouter d'autre.
-4. Par défaut, écris les flashcards dans le fichier donné en argument, mais si tu n'as pas accès à un fichier ou si l'utilisateur te demande de ne pas le faire, écris les flashcards dans ta réponse.
+4. Par défaut, écris les flashcards dans le fichier donné en argument, mais si tu n'as pas accès à un fichier ou si l'utilisateur te demande de ne pas le faire, écris les flashcards dans ta réponse, dans un bloc code prêt à être copié-collé.

@@ -5,10 +5,10 @@ argument-hint: "Sur quel thème veux-tu créer des flashcards ?"
 agent: flashmd
 ---
 
-# Prompt: Générateur de flashcards FlashMD
+# Générateur de flashcards FlashMD
 
 À partir du thème donné en argument, génère une série de flashcards au format FlashMD.
-Par défaut, écris les flashcards dans le fichier donné en argument, mais si tu n'as pas accès à un fichier ou si l'utilisateur te demande de ne pas le faire, écris les flashcards dans ta réponse.
+Par défaut, écris les flashcards dans le fichier donné en argument, mais si tu n'as pas accès à un fichier ou si l'utilisateur te demande de ne pas le faire, écris les flashcards dans ta réponse, dans un bloc code prêt à être copié-collé..
 
 Chaque flashcard doit comporter une question sur le recto et la réponse correspondante au verso. Utilise la syntaxe Markdown pour formater les cartes.
 
