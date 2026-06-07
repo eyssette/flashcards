@@ -7,8 +7,11 @@ agent: flashmd
 
 # Générateur de flashcards FlashMD
 
-À partir du thème donné en argument, génère une série de flashcards au format FlashMD.
-Par défaut, écris les flashcards dans le fichier donné en argument, mais si tu n'as pas accès à un fichier ou si l'utilisateur te demande de ne pas le faire, écris les flashcards dans ta réponse, dans un bloc code prêt à être copié-collé..
+À partir du thème donné, génère des flashcards au format FlashMD.
+S'il y a des informations dans le fichier ou dans le prompt, utilise-les en priorité pour créer les flashcards.
+
+Par défaut, écris les flaschards dans le fichier fourni. Si le fichier contient déjà des flashcards, ajoute les nouvelles à la suite, sans rien écraser.
+S'il n'y a pas de fichier fourni, ou si l'utilisateur le demande, écris les flashcards dans un bloc code prêt à copier-coller.
 
 Chaque flashcard doit comporter une question sur le recto et la réponse correspondante au verso. Utilise la syntaxe Markdown pour formater les cartes.
 
